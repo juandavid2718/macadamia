@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*, *:before, *:after{
+    box-sizing: border-box;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(207, 229, 231, 0.137);
+    font-family:Indie Flower;
+}
+
+
+/*-----------HEader------------*/
+
+
+header{
+    background-color:orange ; 
+    margin: 0%;
+    text-align:center; 
+    padding: 0;
+    display:block;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.nav{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-bottom: 1px solid blue;
+    box-shadow: 5px 0 10px blue;
+}
+
+.img-carrito{
+    width: 30px;
+    border-radius: 30px;
+}
+
+.nav-item {
+    display: flex;
+    list-style: none;
+    margin-right: 30px; 
+}
+
+.nav-item  a{
+    color: antiquewhite;
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+.nav-item:hover  {
+    background-color:rgba(8, 69, 75, .3 );
+    transition: .4s;
+    border-radius: 10px;
+    box-shadow: 5px 0 10px #0e4155;
+}
+
+
+/*--------------Main-div----------------*/
+.title{
+    text-align: center;
+    color:  rgba(8, 69, 75, .3 );
+    font-size:30px; 
+    margin:10px  30px; 
+    text-shadow: #a8dce9 5px 10px;
+}
+
+#contenedor-tipo{
+    margin:0px 10px ; 
+    width:  300px;
+    border: 3px groove #c1effa;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 20px 20px 5px 20px;
+    background-color:aliceblue;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 5px;
+}
+
+div> div>button {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color:rgba(64, 76, 182, 0.561);
+    background-color: #9bd9e9;
+    font-family:Indie Flower;
+    border-radius: 10px;
+}
+
+.p {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #0e4155ab;
+    background-color:rgba(250, 235, 215, 0.4);
+}
+
+div> div>button:hover  {
+        background-color:rgba(8, 69, 75, .3 );
+        transition: .4s;
+        border-radius: 10px;
+        box-shadow: 5px 0 10px #0e4155;
+        color: antiquewhite;
+}
+
+
+/*-------------Main--------------*/
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+
+    height: 100%;
+    margin: 30px;
+    
+}
+
+/*--------------ContenedorDeProductos--------------*/
+
+  .contenedor-productos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:aliceblue;
+    padding: 0px 10px;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 100%;
+    align-items: center;
+    border: 3px groove #c1effa;
+}
+.contenedor-productos> a>div{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 10px 0px 0px 0px;;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-productos h3{
+    background-color:#9bd9e9;
+    width: 100%;
+    color:#0e4155;
+    margin-top: 15px;
+    padding: 8px;
+    text-align: center;
+    border-radius:10px;
+    opacity: .7;
+}
+
+ .contenedor-productos> div> div> img{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contenedor-productos> div> h2{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/*-----Foooter---------*/
+
+
+
+.footer{
+    width: 100%;
+    background-color: #9bd9e9 ;
+    margin-top: 20%;
+    align-self: stretch;
+}
+
+.footer .footer-div{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.footer .footer-div .box h2{
+    color: antiquewhite;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+.footer .footer-div .box p{
+    color: rgba(250, 235, 215, 0.534);
+    margin-bottom: 10px;
+}
+
+
+.footer .footer-div .redes a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: antiquewhite;
+    margin-right: 10px;
+    background-color:#0e415559;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.footer .derechos{
+    padding: 15px 10px;
+    text-align: center;
+    color: antiquewhite;
+    
+}
+
