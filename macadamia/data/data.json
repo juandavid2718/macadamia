@@ -1,0 +1,36 @@
+{
+    "productos": [
+      {
+        "nombre": "Buso Moca",
+        "imagen":"https://res.cloudinary.com/juanda27/image/upload/v1649446843/nike-essentials_f2rtk2.webp",
+        "Precio":"100000",
+        "correo":"Lorem Ipsum is simply cummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "talla":["S","M","L"],
+        "id": 1
+      },
+      {
+        "nombre": "Sudadera Moca",
+        "imagen":"https://res.cloudinary.com/juanda27/image/upload/v1649446871/nike-cream_eyusvf.webp",
+        "Precio":"80000",
+        "correo":"Lorem Ipsum is simply cummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "talla":["S","M","L"],
+        "id": 2
+      },
+      {
+        "nombre": "Tenis Rosa",
+        "imagen":"https://res.cloudinary.com/juanda27/image/upload/v1649446903/nike-air_force_qkqo0a.webp",
+        "Precio":"180000",
+        "correo":"Lorem Ipsum is simply cummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "talla":["34","36","38"],
+        "id": 3
+      },
+      {
+        "nombre": "Tenis negros",
+        "imagen":"https://res.cloudinary.com/juanda27/image/upload/v1649446913/nike-air-zoom_w10iwi.webp",
+        "Precio":"140000",
+        "correo":"Lorem Ipsum is simply cummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "talla":["34","36","38"],
+        "id": 4
+      }
+    ]
+}
